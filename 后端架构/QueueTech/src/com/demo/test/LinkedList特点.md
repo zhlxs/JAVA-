@@ -1,0 +1,6 @@
+LinkedList自己实现了序列化和反序列化，因为它实现了writeObject和readObject方法。
+LinkedList是一个以双向链表实现的List。
+LinkedList还是一个双端队列，具有队列、双端队列、栈的特性。
+LinkedList在首部和尾部添加、删除元素效率高效，在中间添加、删除元素效率较低。
+LinkedList虽然实现了随机访问，但是效率低效，不建议使用。
+LinkedList是线程不安全的。
